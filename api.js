@@ -4,6 +4,7 @@ var express = require('express');
 var app = express();
 const Block = require('./Block');
 const bitcoin = new Block();
+
 const uuid = require('uuid/v1');
 
 const nodeAddress = uuid().split('-').join('');
